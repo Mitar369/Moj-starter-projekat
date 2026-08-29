@@ -1,0 +1,6 @@
+[
+  { "id": 1, "task": "Kreiran repozitorijum na GitHub-u", "completed": true },
+  { "id": 2, "task": "Postavljena MIT Licenca i README", "completed": true },
+  { "id": 3, "task": "Dodat .gitignore fajl", "completed": true },
+  { "id": 4, "task": "Postavljen prvi automatizovani GitHub Action workflow", "completed": false }
+]
