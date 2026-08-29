@@ -1,0 +1,18 @@
+name: Check Task List
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  check-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Read checklist.json
+        run: |
+          echo "Čitam sadržaj checklist.json fajla:"
+          cat checklist.json
